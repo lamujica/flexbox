@@ -13,7 +13,6 @@
 }
 
 .menu {
-  /* border: 1px solid #fff; */
   width: 900px;
   display: flex;
   justify-content: space-between;
@@ -97,4 +96,9 @@
   flex: initial;
   width: 300px;
   background-color: #5995da;
+}
+
+/* Removed on div. Utilized margin-left to eat up additional space in flex container */
+.signup {
+  margin-left: auto;
 }
